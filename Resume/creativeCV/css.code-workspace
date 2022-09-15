@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../css"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../images"
+		},
+		{
+			"path": "../../../js"
+		},
+		{
+			"path": "../../../scripts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CV"
+	}
+}

@@ -1,0 +1,67 @@
+/* --- put your css here --- */ 
+
+/* external css is imported into html using the <link> tag in the <head> section, as shown below.
+
+  <head>
+    <link rel="stylesheet" href="assignment02.css">
+  </head>
+/* --- pre-existing css --- */
+tr:nth-child(even) {
+ background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: grey;
+  
+}
+.stripey th {
+  color: white;
+  background-color: black;
+}
+td:hover {
+  background-color: yellow;
+}
+td {
+  text-align: right;
+}
+input[type="text"]:focus {
+  background-color: pink;
+}
+
+/* My code for assignment 2 starts
+#6 Could not find and SPAN elements
+*/
+
+body{background-color: skyblue;}
+#igottabeme{font: Arial;}
+.classy{margin-left: 10px;}
+#div1, #div2, #div3{margin-bottom: 50px;}
+span{width: 100px; 
+  height: 50px; 
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 5px solid blue;
+}
+span .a{
+  word-wrap: normal
+}
+span .b{
+  word-wrap:
+}
+nav {
+  position: fixed;
+  top: 0;
+  background-color: green; 
+  opacity: 90%;
+  padding: 5px;
+  font-size: 20px;
+}
+div.sticky {
+  position: sticky;
+  width: 50%;
+  bottom: 10px;
+  
+
+
+8

@@ -1,68 +1,123 @@
-/* --- put your css here --- */ 
+/* --- put your css here --- */
+
 
 /* external css is imported into html using the <link> tag in the <head> section, as shown below.
 
   <head>
     <link rel="stylesheet" href="assignment02.css">
   </head>
+
+*/
+
+
+/* --- Part A --- */
+/* #2 */
+body {
+    background-color: skyblue;
+}
+/* #3 */
+#igottabeme {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #4 */
+.classy {
+    margin-left: 10px;
+}
+
+
+/* --- Part B --- */
+/* #5 */
+div {
+    margin-bottom: 50px;
+}
+/* #6 */
+span {
+    width: 100px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid blue;
+    background-color: yellow;
+}
+/* #7 */
+span[class="a"] {
+    word-wrap: normal;
+}
+
+span[class="b"] {
+    display: block;
+}
+
+span[class="c"] {
+    display: inline-block;
+}
+
+
+/* --- Part C --- */
+/* #8 */
+img[alt="cat icon"] {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+img[alt="dog icon"] {
+    position: relative;
+    right: 50px;
+    bottom: 150px;
+}
+
+img[alt="bird icon"]{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+/* #9 */
+#positionMe{
+    position: relative;   
+}
+
+nav {
+    position: sticky;
+    background-color: #00ff04;
+    opacity: 90%;
+    top: 0;
+    z-index: 2;
+    padding: 5px;
+    font-size: 20px;
+
+
+}
+
+/* --- part D --- */
+
+
 /* --- pre-existing css --- */
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-   }
-   tr:nth-child(odd) {
-     background-color: grey;
-     
-   }
-   .stripey th {
-     color: white;
-     background-color: black;
-   }
-   td:hover {
-     background-color: yellow;
-   }
-   td {
-     text-align: right;
-   }
-   input[type="text"]:focus {
-     background-color: pink;
-   }
-   
-   /* My code for assignment 2 starts
-   #6 Could not find and SPAN elements
-   */
-   
-   body{background-color: skyblue;}
-   #igottabeme{font: Arial;}
-   .classy{margin-left: 10px;}
-   #div1, #div2, #div3{margin-bottom: 50px;}
-   span{width: 100px; 
-     height: 50px; 
-     padding-top: 5px; 
-     padding-bottom: 5px;
-     padding-left: 20px;
-     padding-right: 20px;
-     border: 5px solid blue;
-   }
-   span .a{
-     word-wrap: normal
-   }
-   span .b{
-     word-wrap: normal;
-   }
-   nav {
-     position: fixed;
-     top: 0;
-     background-color: green; 
-     opacity: 90%;
-     padding: 5px;
-     font-size: 20px;
-   }
-   div.sticky {
-     position: sticky;
-     width: 50%;
-     bottom: 10px;
-     
-   
-   }
-   
-   
+/* #10 */
+.stripey tr:nth-child(even) {
+    background-color: gray;
+}
+
+.stripey tr:nth-child(odd) {
+    background-color: white;
+}
+
+.stripey th {
+    color: white;
+    background-color: black;
+}
+
+.mousey td:hover {
+    background-color: yellow;
+}
+
+.rightey td {
+    text-align: right;
+}
+
+input[type="text"].pinkey:focus {
+    background-color: pink;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./Assignment3.js"></script>
+    <script src="./prac.js"></script>
     <title>Document</title>
     
 </head>
@@ -26,7 +26,7 @@
    <script>
     function FTC(){
        var f = document.getElementById("inputFahrenheit").value;
-       var c = ((9/5 * c) + 32);
+       var c = ((f - 32) * 5/9);
        document.getElementById("Celsius").value = c;
     }
    </script>

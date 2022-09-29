@@ -7,11 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./Assignment3.js"></script>
     <title>Document</title>
+    
 </head>
 
 <body>
-    
+   <H2> <Strong> CIS-255: Assignment 03 Fall 2022</Strong></H2>
+   <h3> <strong> 03A. Convert Fahrenheit to Celsius</strong></h3>
 
+   <label> Fahrenheit </label>
+   <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"></input:id>
+   <br>
+   <label> Celsius </label>
+   <input id="Celsius" type="number" placeholder="Celcius" ></input:id>
+   <br>
+   <button type="button" onclick="FTC();">Convert</button>
+
+
+   <script>
+    function FTC(){
+       var f = document.getElementById("inputFahrenheit").value;
+       var c = ((9/5 * c) + 32);
+       document.getElementById("Celsius").value = c;
+    }
+   </script>
    
 </body>
 

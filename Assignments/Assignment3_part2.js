@@ -100,8 +100,8 @@ function outputCartRow(item, total){
 		cell0.innerHTML = "<img src=cart[i].product.filename/>";
 		cell1.innerHTML = cart[i].product.title // product
 		cell2.innerHTML = cart[i].quantity // quantity
-		cell3.innerHTML = cart[i].product.price // price
-		cell4.innerHTML = CalculateTotal(cart[i].quantity, cart[i].product.price)
+		cell3.innerHTML = '$' + cart[i].product.price.toFixed(2) // price
+		cell4.innerHTML = '$' + CalculateTotal(cart[i].quantity, cart[i].product.price).toFixed(2)
 	 
 		
 		
@@ -109,3 +109,6 @@ function outputCartRow(item, total){
 
 	
 }
+
+
+

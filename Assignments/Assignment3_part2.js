@@ -85,7 +85,6 @@ function CalculatebottomTable(){
 function outputCartRow(item, total){
 	let table = document.getElementById("table-fill")
 
-	
 
 	for (let i = 0; i < cart.length; i++) {
 		var row = table.insertRow(i + 1); 
@@ -95,9 +94,7 @@ function outputCartRow(item, total){
 		var cell3 = row.insertCell(3); // Price
 		var cell4 = row.insertCell(4); //Amount
 
-// let img = document.createElement("img");
-// img.src = cart[i].product.filename;
-		cell0.innerHTML = "<img src=cart[i].product.filename/>";
+		cell0.innerHTML = "<img src=/images/" + cart[i].product.filename + "/>";
 		cell1.innerHTML = cart[i].product.title // product
 		cell2.innerHTML = cart[i].quantity // quantity
 		cell3.innerHTML = '$' + cart[i].product.price.toFixed(2) // price

@@ -94,9 +94,11 @@ function outputCartRow(item, total){
 		var cell3 = row.insertCell(3); // Price
 		var cell4 = row.insertCell(4); //Amount
 		
-		var img = "<img src=../../images/" + cart[i].product.filename + "/>";
-
-		cell0.innerHTML = img;
+		var img = document.createElement("img");
+		img.src = "../../images/"+cart[i].product.filename
+	
+		cell0.innerHTML= ""
+		cell0.appendChild(img);
 		cell1.innerHTML = cart[i].product.title // product
 		cell2.innerHTML = cart[i].quantity // quantity
 		cell3.innerHTML = '$' + cart[i].product.price.toFixed(2) // price

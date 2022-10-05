@@ -93,7 +93,7 @@ function outputCartRow(item, total){
 		var cell2 = row.insertCell(2); // Quantity
 		var cell3 = row.insertCell(3); // Price
 		var cell4 = row.insertCell(4); //Amount
-		var img = "<img src=./images/" + cart[i].product.filename + "/>";
+		var img = "<img src=././images/" + cart[i].product.filename + "/>";
 
 		cell0.innerHTML = img;
 		cell1.innerHTML = cart[i].product.title // product

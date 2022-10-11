@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../desktop.js">
+    <title>Practice for exam </title>
+</head>
+<body>
+    <!-- Inline JS -->
+    <button onclick="alert('Hey there')"> Hello!</button>
+    
+
+
+    <script> function examPrac(){
+        let n = 1
+        let x = 5
+
+        return x + n
+        console.log(examPrac())
+    }</script>
+
+    <!-- Event listener: If the body is clicked, Console.log(Body)-->
+
+    <script> 
+
+    let body = document.getElementsByTagName("body")[0]
+        
+        body.addEventListener("click", e => {
+            console.log("body")
+        })
+    </script>
+
+    
+</body>
+</html>
